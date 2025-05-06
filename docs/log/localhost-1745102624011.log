@@ -1,0 +1,326 @@
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+indexedDB.ts:50 IndexedDB 초기화 실패: Event {isTrusted: true, type: 'error', target: IDBOpenDBRequest, currentTarget: IDBOpenDBRequest, eventPhase: 2, …}
+overrideMethod @ hook.js:608
+window.console.error @ app-index.js:32
+console.error @ hydration-error-info.js:41
+request.onerror @ indexedDB.ts:50
+IndexedDB
+eval @ indexedDB.ts:47
+initDB @ indexedDB.ts:40
+IndexedDB @ indexedDB.ts:26
+getInstance @ indexedDB.ts:32
+eval @ indexedDB.ts:211
+(app-pages-browser)/./src/utils/indexedDB.ts @ page.js:171
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+fn @ webpack.js?v=1745102600863:371
+eval @ CategoryTabs.tsx:9
+(app-pages-browser)/./src/components/settings/CategoryTabs.tsx @ page.js:138
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+fn @ webpack.js?v=1745102600863:371
+eval @ page.tsx:7
+(app-pages-browser)/./src/app/settings/page.tsx @ page.js:83
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+fn @ webpack.js?v=1745102600863:371
+Promise.then
+eval @ next-flight-client-entry-loader.js?modules=G%3A%5Ccursor%5Cmoney_book%5Csrc%5Capp%5Csettings%5Cpage.tsx&server=false!:1
+(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=G%3A%5Ccursor%5Cmoney_book%5Csrc%5Capp%5Csettings%5Cpage.tsx&server=false! @ page.js:72
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+__webpack_exec__ @ page.js:1055
+(anonymous) @ page.js:1056
+__webpack_require__.O @ webpack.js?v=1745102600863:86
+(anonymous) @ page.js:1057
+webpackJsonpCallback @ webpack.js?v=1745102600863:1388
+(anonymous) @ page.js:9
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+indexedDB.ts:51 Uncaught (in promise) Error: IndexedDB 초기화 실패
+    at request.onerror (indexedDB.ts:51:18)
+request.onerror @ indexedDB.ts:51
+IndexedDB
+eval @ indexedDB.ts:47
+initDB @ indexedDB.ts:40
+IndexedDB @ indexedDB.ts:26
+getInstance @ indexedDB.ts:32
+eval @ indexedDB.ts:211
+(app-pages-browser)/./src/utils/indexedDB.ts @ page.js:171
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+fn @ webpack.js?v=1745102600863:371
+eval @ CategoryTabs.tsx:9
+(app-pages-browser)/./src/components/settings/CategoryTabs.tsx @ page.js:138
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+fn @ webpack.js?v=1745102600863:371
+eval @ page.tsx:7
+(app-pages-browser)/./src/app/settings/page.tsx @ page.js:83
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+fn @ webpack.js?v=1745102600863:371
+Promise.then
+eval @ next-flight-client-entry-loader.js?modules=G%3A%5Ccursor%5Cmoney_book%5Csrc%5Capp%5Csettings%5Cpage.tsx&server=false!:1
+(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=G%3A%5Ccursor%5Cmoney_book%5Csrc%5Capp%5Csettings%5Cpage.tsx&server=false! @ page.js:72
+options.factory @ webpack.js?v=1745102600863:716
+__webpack_require__ @ webpack.js?v=1745102600863:37
+__webpack_exec__ @ page.js:1055
+(anonymous) @ page.js:1056
+__webpack_require__.O @ webpack.js?v=1745102600863:86
+(anonymous) @ page.js:1057
+webpackJsonpCallback @ webpack.js?v=1745102600863:1388
+(anonymous) @ page.js:9
+CategoryTabs.tsx:17 Failed to load categories: TypeError: _utils_indexedDB__WEBPACK_IMPORTED_MODULE_2__.categoryDB.getAllCategories is not a function
+    at loadCategories (CategoryTabs.tsx:14:46)
+    at eval (CategoryTabs.tsx:22:5)
+    at commitHookEffectListMount (react-dom.development.js:19980:23)
+    at commitHookPassiveMountEffects (react-dom.development.js:22036:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22141:11)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22138:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7)
+    at commitPassiveMountOnFiber (react-dom.development.js:22252:9)
+    at recursivelyTraversePassiveMountEffects (react-dom.development.js:22119:7) Error Component Stack
+    at CategoryTabs (CategoryTabs.tsx:10:47)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at SettingsPage (page.tsx:14:37)
+    at InnerLayoutRouter (layout-router.js:240:11)
+    at RedirectErrorBoundary (redirect-boundary.js:73:9)
+    at RedirectBoundary (redirect-boundary.js:81:11)
+    at NotFoundBoundary (not-found-boundary.js:62:11)
+    at LoadingBoundary (layout-router.js:337:11)
+    at ErrorBoundary (error-boundary.js:110:11)
+    at InnerScrollAndFocusHandler (layout-router.js:151:9)
+    at ScrollAndFocusHandler (layout-router.js:226:11)
+    at RenderFromTemplateContext (render-from-template-context.js:15:44)
+    at OuterLayoutRouter (layout-router.js:347:11)
+    at InnerLayoutRouter (layout-router.js:240:11)
+    at RedirectErrorBoundary (redirect-boundary.js:73:9)
+    at RedirectBoundary (redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (not-found-boundary.js:54:9)
+    at NotFoundBoundary (not-found-boundary.js:62:11)
+    at LoadingBoundary (layout-router.js:337:11)
+    at ErrorBoundary (error-boundary.js:110:11)
+    at InnerScrollAndFocusHandler (layout-router.js:151:9)
+    at ScrollAndFocusHandler (layout-router.js:226:11)
+    at RenderFromTemplateContext (render-from-template-context.js:15:44)
+    at OuterLayoutRouter (layout-router.js:347:11)
+    at main (<anonymous>)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RedirectErrorBoundary (redirect-boundary.js:73:9)
+    at RedirectBoundary (redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (not-found-boundary.js:54:9)
+    at NotFoundBoundary (not-found-boundary.js:62:11)
+    at DevRootNotFoundBoundary (dev-root-not-found-boundary.js:32:11)
+    at ReactDevOverlay (ReactDevOverlay.js:66:9)
+    at HotReload (hot-reloader-client.js:326:11)
+    at Router (app-router.js:147:11)
+    at ErrorBoundaryHandler (error-boundary.js:82:9)
+    at ErrorBoundary (error-boundary.js:110:11)
+    at AppRouter (app-router.js:417:13)
+    at ServerRoot (app-index.js:123:11)
+    at RSCComponent (<anonymous>)
+    at Root (app-index.js:139:11)
+overrideMethod @ hook.js:608
+window.console.error @ app-index.js:32
+console.error @ hydration-error-info.js:41
+loadCategories @ CategoryTabs.tsx:17
+eval @ CategoryTabs.tsx:22
+commitHookEffectListMount @ react-dom.development.js:19980
+commitHookPassiveMountEffects @ react-dom.development.js:22036
+commitPassiveMountOnFiber @ react-dom.development.js:22141
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22138
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22252
+recursivelyTraversePassiveMountEffects @ react-dom.development.js:22119
+commitPassiveMountOnFiber @ react-dom.development.js:22149
+commitPassiveMountEffects @ react-dom.development.js:22107
+flushPassiveEffectsImpl @ react-dom.development.js:25256
+flushPassiveEffects @ react-dom.development.js:25197
+performSyncWorkOnRoot @ react-dom.development.js:23671
+flushSyncWorkAcrossRoots_impl @ react-dom.development.js:9970
+flushSyncWorkOnAllRoots @ react-dom.development.js:9928
+commitRootImpl @ react-dom.development.js:25128
+commitRoot @ react-dom.development.js:24846
+commitRootWhenReady @ react-dom.development.js:23584
+finishConcurrentRender @ react-dom.development.js:23549
+performConcurrentWorkOnRoot @ react-dom.development.js:23394
+workLoop @ scheduler.development.js:261
+flushWork @ scheduler.development.js:230
+performWorkUntilDeadline @ scheduler.development.js:534
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+contents.4683de87.js:1  param 『{"isTrusted":true}』 is not legal！
+settings:1 Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+settings:1 Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+settings:1 Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+settings:1 Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received

@@ -1,0 +1,64 @@
+// 불꽃놀이 효과(Firework Effect) 적용법
+
+1. useFirework 훅 임포트
+
+import useFirework from '@/hooks/useFirework';
+
+2. fireworkRef와 fire 함수를 컴포넌트에서 선언
+
+const { fireworkRef, fire } = useFirework();
+
+3. 적용할 요소에 ref와 onMouseEnter/onMouseLeave 이벤트 연결
+
+<span
+  ref={fireworkRef}
+  onMouseEnter={fire}
+  onMouseLeave={() => {}}
+>
+  메뉴명
+</span>
+
+4. CSS 및 불꽃놀이 관련 스타일이 필요하다면, 기존 메뉴바 스타일 참고
+
+
+// =========================
+// [불꽃놀이 효과 CSS 예시]
+// =========================
+
+/* 불꽃놀이 캔버스(예: 메뉴명 뒤에 위치) */
+.firework-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* 불꽃 파티클 기본 스타일 */
+.firework-particle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.8;
+  pointer-events: none;
+  will-change: transform, opacity;
+  transition: opacity 0.3s;
+}
+
+/* (선택) 불꽃 색상 예시 */
+.firework-particle.red { background: #ff3b3b; }
+.firework-particle.yellow { background: #ffe066; }
+.firework-particle.blue { background: #5bc0eb; }
+.firework-particle.green { background: #53e69d; }
+
+/* (선택) 불꽃 애니메이션 예시 */
+@keyframes firework-explode {
+  0% { transform: scale(0.5) translateY(0); opacity: 1; }
+  80% { opacity: 1; }
+  100% { transform: scale(1.2) translateY(-40px); opacity: 0; }
+}
+
+.firework-particle {
+  animation: firework-explode 0.7s cubic-bezier(0.4,0,0.2,1) forwards;
+} 
