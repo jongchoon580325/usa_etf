@@ -1,0 +1,124 @@
+ 
+            
+            
+           GET http://localhost:3000/portfolio 500 (Internal Server Error)
+Router @ webpack-internal:///…s/app-router.js:316
+renderWithHooks @ webpack-internal:///…evelopment.js:10697
+updateFunctionComponent @ webpack-internal:///…evelopment.js:15180
+beginWork$1 @ webpack-internal:///…evelopment.js:17324
+beginWork @ webpack-internal:///…evelopment.js:25675
+performUnitOfWork @ webpack-internal:///…evelopment.js:24526
+workLoopConcurrent @ webpack-internal:///…evelopment.js:24512
+renderRootConcurrent @ webpack-internal:///…evelopment.js:24468
+performConcurrentWorkOnRoot @ webpack-internal:///…evelopment.js:23339
+workLoop @ webpack-internal:///….development.js:261
+flushWork @ webpack-internal:///….development.js:230
+performWorkUntilDeadline @ webpack-internal:///….development.js:534
+index.js:566 Uncaught ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+  x Expected ';', got 'with'
+   ,-[/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/yahoo-finance2/dist/esm/src/lib/validateAndCoerceTypes.js:1:1]
+ 1 | // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+ 2 | // @ts-ignore: we have to ignore this for csm output.
+ 3 | import pkg from "../../package.json" with { type: "json" };
+   :                                      ^^^^
+ 4 | import { FailedYahooValidationError, InvalidOptionsError } from "./errors.js";
+ 5 | import { TransformDecodeCheckError, TransformDecodeError, Value, } from "@sinclair/typebox/value";
+ 6 | function logRelevantErrorInfo(e) {
+   `----
+
+
+Caused by:
+    Syntax Error
+    at processResult (/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/next/dist/compiled/webpack/bundle5.js:28:398602)
+    at <unknown> (/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/next/dist/compiled/webpack/bundle5.js:28:400319)
+    at <unknown> (/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+getServerError @ client.js:2
+eval @ index.js:566
+setTimeout
+hydrate @ index.js:554
+await in hydrate
+eval @ next-dev.js:33
+Promise.then
+eval @ next-dev.js:27
+./node_modules/next/dist/client/next-dev.js @ main.js?ts=1746779721721:181
+options.factory @ webpack.js?ts=1746779721721:648
+__webpack_require__ @ webpack.js?ts=1746779721721:37
+__webpack_exec__ @ main.js?ts=1746779721721:1182
+(익명) @ main.js?ts=1746779721721:1183
+webpackJsonpCallback @ webpack.js?ts=1746779721721:1196
+(익명) @ main.js?ts=1746779721721:9
+websocket.js:48 [HMR] connected
+hook.js:608 ./node_modules/yahoo-finance2/dist/esm/src/lib/validateAndCoerceTypes.js
+Error: 
+  x Expected ';', got 'with'
+   ,-[/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/yahoo-finance2/dist/esm/src/lib/validateAndCoerceTypes.js:1:1]
+ 1 | // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+ 2 | // @ts-ignore: we have to ignore this for csm output.
+ 3 | import pkg from "../../package.json" with { type: "json" };
+   :                                      ^^^^
+ 4 | import { FailedYahooValidationError, InvalidOptionsError } from "./errors.js";
+ 5 | import { TransformDecodeCheckError, TransformDecodeError, Value, } from "@sinclair/typebox/value";
+ 6 | function logRelevantErrorInfo(e) {
+   `----
+
+Caused by:
+    Syntax Error
+overrideMethod @ hook.js:608
+console.error @ client.js:2
+window.console.error @ setup-hydration-warning.js:18
+handleErrors @ hot-dev-client.js:133
+processMessage @ hot-dev-client.js:200
+eval @ hot-dev-client.js:51
+eval @ websocket.js:54
+handleMessage @ websocket.js:53
+hook.js:608 ./node_modules/yahoo-finance2/dist/esm/src/lib/yahooFinanceFetch.js
+Error: 
+  x Expected ';', got 'with'
+   ,-[/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/yahoo-finance2/dist/esm/src/lib/yahooFinanceFetch.js:2:1]
+ 2 | import errors from "./errors.js";
+ 3 | // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+ 4 | // @ts-ignore: we have to ignore this for csm output.assert
+ 5 | import pkg from "../../package.json" with { type: "json" };
+   :                                      ^^^^
+ 6 | import getCrumb from "./getCrumb.js";
+ 7 | const userAgent = `${pkg.name}/${pkg.version} (+${pkg.repository})`;
+ 8 | const _queue = new Queue();
+   `----
+
+Caused by:
+    Syntax Error
+overrideMethod @ hook.js:608
+console.error @ client.js:2
+window.console.error @ setup-hydration-warning.js:18
+handleErrors @ hot-dev-client.js:133
+processMessage @ hot-dev-client.js:200
+eval @ hot-dev-client.js:51
+eval @ websocket.js:54
+handleMessage @ websocket.js:53
+hook.js:608 ./node_modules/yahoo-finance2/dist/esm/src/modules/fundamentalsTimeSeries.js
+Error: 
+  x Expected ';', got 'with'
+   ,-[/Users/jongchoonna/Documents/cursor/app/usa_etf_divident/01/node_modules/yahoo-finance2/dist/esm/src/modules/fundamentalsTimeSeries.js:1:1]
+ 1 | import { Type } from "@sinclair/typebox";
+ 2 | // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+ 3 | // @ts-ignore: we have to ignore this for csm output.
+ 4 | import Timeseries_Keys from "../lib/timeseries.json" with { type: "json" };
+   :                                                      ^^^^
+ 5 | import { YahooFinanceDate, YahooNumber } from "../lib/yahooFinanceTypes.js";
+ 6 | const FundamentalsTimeSeries_Types = ["quarterly", "annual", "trailing"];
+ 7 | const FundamentalsTimeSeries_Modules = [
+   `----
+
+Caused by:
+    Syntax Error
+overrideMethod @ hook.js:608
+console.error @ client.js:2
+window.console.error @ setup-hydration-warning.js:18
+handleErrors @ hot-dev-client.js:133
+processMessage @ hot-dev-client.js:200
+eval @ hot-dev-client.js:51
+eval @ websocket.js:54
+handleMessage @ websocket.js:53
